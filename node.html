@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('yassine', {
+        category: 'function',
+        color: '#e2d96e',
+        defaults: {
+            name: { value: "" }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "font-awesome/fa-user",
+        label: function() {
+            return this.name || "yassine";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="yassine">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="yassine">
+    <p>A simple node that replaces any message payload with the string "Yassine"</p>
+</script>

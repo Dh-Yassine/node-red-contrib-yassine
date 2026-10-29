@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-yassine",
+  "version": "1.0.0",
+  "description": "Test node for TP IoT",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "yassine": "node.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dh-Yassine/node-red-contrib-yassine.git"
+  },
+  "keywords": ["node-red", "yassine"],
+  "author": "Dh-Yassine",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Dh-Yassine/node-red-contrib-yassine/issues"
+  },
+  "homepage": "https://github.com/Dh-Yassine/node-red-contrib-yassine#readme"
+}
